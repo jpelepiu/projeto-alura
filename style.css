@@ -1,5 +1,10 @@
-body{
-    background: url('img/bg desktop.webp');
+:root {
+    --text-color: #DBE4EF;
+    --card-front-color: #144480;
+    --card-back-color: #00F4BF;
+}
+body {
+    background: url('img/bg-desktop.webp');
     font-family: Bai Jamjuree;
 }
 
@@ -9,7 +14,7 @@ display: flex;
 
 .cartao {
     margin: 1rem 1rem;
-    background-color: green;
+    background-color: paleturquoise;
     height: 20rem ;
     flex-grow: 1;
     flex-basis: calc(33% - 6rem);
