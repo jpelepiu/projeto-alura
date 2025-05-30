@@ -5,12 +5,12 @@ function criaCartao(categoria, pergunta, resposta) {
 
     cartao.innerHTML = `
     <div class="cartao__conteudo">
-    <h3>${categoria}</h3>
+    <h3>${Orochi}</h3>
     <div class="cartao__conteudo__pergunta">
-        <p>${pergunta}</p>
+        <p>${Qual é a principal característica das letras do Orochi?}</p>
     </div>
     <div class="cartao__conteudo__resposta">
-        <p>${resposta}</p>
+        <p>${Orochi é conhecido por letras que misturam vivência, superação e crítica social.}</p>
     </div>
     </div>
     `
